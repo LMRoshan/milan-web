@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">BOUNDLESS MOMENTS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./experience.html">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./adminLogin.html">Admin</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+      <div class="d-flex">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <ul class="sidebar-menu">
+                <li>
+                    <a href="./admin.html"><i class="bi bi-speedometer2"></i> Dashboard</a>
+                </li>
+                <li>
+                    <a href="./portfolio.html"><i class="bi bi-images"></i> Portfolio</a>
+                </li>
+                <li>
+                    <a href="./gallery.html"><i class="bi bi-collection"></i> Gallery</a>
+                </li>
+            </ul>
+        </div>
+
+    <div class="main-content">
+        <div class="welcome-box">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2>Welcome back, Admin!</h2>
+                    <p>Here's what's happening with your photography business today.</p>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="messages-section">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h3>Client Messages</h3>
+            </div>
+
+            <div class="message-list">
+                <div class="message-card unread">
+                    <div class="d-flex justify-content-between">
+                        <h5>John Smith</h5>
+                        <span class="badge bg-danger">Unread</span>
+                    </div>
+                    <p class="mb-1">Interested in wedding photography for our June wedding. Would like to know about
+                        your packages and availability.</p>
+                    <div class="message-meta">
+                        <span>john.smith@example.com</span> • <span>2 hours ago</span>
+                    </div>
+                </div>
+
+                <div class="message-card">
+                    <div class="d-flex justify-content-between">
+                        <h5>Sarah Johnson</h5>
+                        <span class="badge bg-success">Replied</span>
+                    </div>
+                    <p class="mb-1">Looking for a portrait session for my family. We're available on weekends throughout
+                        October.</p>
+                    <div class="message-meta">
+                        <span>sarahj@example.com</span> • <span>1 day ago</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
